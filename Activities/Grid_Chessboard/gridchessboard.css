@@ -1,0 +1,37 @@
+
+
+.chessboard {
+  border: 5px solid lightgrey;
+  display: flex;
+  height: 55vw;
+  width: 55vw;
+  margin: auto;
+}
+  
+.row {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.light-salmon {
+  background-color: lightsalmon;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.salmon {
+  background-color: salmon;
+  font-size: 5vw;
+  text-align: center;
+}
+
+@media (max-width: 2000px) {
+  .chessboard,
+  .salmon,
+  .light-salmon,
+  .row {
+    flex: 100%;
+  }
+}

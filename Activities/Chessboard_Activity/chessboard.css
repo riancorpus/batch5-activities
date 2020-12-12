@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.chessboard {
+    border: 5px solid pink;
+    display: flex;
+    flex-direction: column;
+    height: 55vw;
+    width: 55vw;
+    margin: 0 auto;
+    
+}
+    
+  .row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .light-salmon {
+    background-color: lightsalmon;
+    flex: 1;
+  }
+  
+  .salmon {
+    background-color: salmon;
+    flex: 1;
+  }
+
+  @media (max-width: 800px) {
+    .chessboard,
+    .salmon,
+    .light-salmon,
+    .row {
+      flex: 100%;
+    }
+  }
+
