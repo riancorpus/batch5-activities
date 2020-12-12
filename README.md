@@ -1,5 +1,3 @@
-# batch5-activities
-
 # **Avion School**
 
 # Activites and Assignments
