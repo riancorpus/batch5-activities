@@ -6,6 +6,7 @@
 ### 3. 12/5/20 [Tribute Page](http://riancorpus.github.io/batch5-activities/Activities/Tribute_Page/) 
 ### 4. 12/7/20 [Chessboard Activity](http://riancorpus.github.io/batch5-activities/Activities/Chessboard_Activity/)
 ### 5. 12/9/20 [Chessboard Grid Activity](http://riancorpus.github.io/batch5-activities/Activities/Grid_Chessboard/)
+### 6. 12/12/20 [Survey Form Activity](http://riancorpus.github.io/batch5-activities/Activities/Survery_Form/)
 
 
 
