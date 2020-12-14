@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project2-Survey Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body class="background">
+    <div class="on-top">
+  <header class="box-title">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Customer Service Satisfaction Form</p>
+  </header>
+  <main>
+  <form id="survey-form">
+    <table>
+    <tr>
+      <td class="wrapperQues"><label for="name" id="name-label">Name: </label></td>
+      <td class="wrapperAns"><input id="name" type="text" name="name" placeholder="Enter you name" required></td>
+    </tr>
+    <tr>
+      <td class="wrapperQues"><label for="email" id="email-label">Email: </label></td>
+      <td class="wrapperAns"><input id="email" type="email" name="email" placeholder="Enter your email" required></td>
+    </tr>
+    <tr>
+      <td class="wrapperQues"><label for="number" id="number-label">Emter your age: </label></td>
+      <td class="wrapperAns"><input id="number" type="number" name="number" min="16" max="90" placeholder="Age"></td>
+    </tr>
+    <tr>
+      <td class="wrapperQues"><label for="gender">Gender: </label></td>
+      <td class="wrapperAns"><select required id="dropdown" name="gender">
+        <option selected="select" disabled>Select an option</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="ratherNotMention">Rather not mention</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="wrapperQues"><label for="dropdown">How often do you visit our restaurant?</label></td>
+      <td class="wrapperAns"><select required id="dropdown" name="income range">
+        <option selected="select" disabled>Select an option</option>
+        <option value="First Time">This is my first visit</option>
+        <option value="Once Or Twice">Once Or Twice</option>
+        <option value="More Than Four Times">More Than Four Times</option>
+
+        </select></td>
+      </tr>
+      <tr class="space">
+<!-------CHECKBOXES--------->      
+      <td class="wrapperQues" valign="top">What is your impression about our restaurant?</td>
+      <td class="options wrapperAns">
+        <input type="checkbox" name="impression1" value="Okay">It's Okay</label><br>
+        <input type="checkbox" name="impression2" value="Very Impressive">Very Impressive<br>
+        <input type="checkbox" name="impression3" value="Just Another">Just Another Restaurnt<br>
+        <input type="checkbox" name="impression4" value="Could make improvements">Could Make Improvements<br>
+        <input type="checkbox" name="impression5" value="Not Impressed At All">Not Impressed At All<br>
+        </td>
+      </tr>
+      <tr>
+        <td class="wrapperQues" valign="top">What did you feel about the music?</td>
+        <td class="options wrapperAns"><input type="radio" name="music" value="none">None<br>
+        <input type="radio" name="music1" value="Loud">It was too loud<br>
+        <input type="radio" name="music2" value="Neutral">Neutral<br>
+        <input type="radio" name="music3" value="Right">It was just right<br>
+        <input type="radio" name="music4" value="Uselesss">It was useless<br>
+        </td>
+      </tr>
+      <tr>
+        <td class="wrapperQues">Comments? Suggestions? Talk to us!</td>
+        <td class="wrapperAns textbox"><textarea rows="5" cols="36"></textarea>
+      </table>
+    <div class="wrapper">
+    <button type="submit" id="submit" value="Submit">Submit</button>
+    </div>
+    </form>
+  </main>
+</div>
+</body>
+</html>
