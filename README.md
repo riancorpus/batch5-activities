@@ -7,6 +7,7 @@
 ### 4. 12/7/20 [Chessboard Activity](http://riancorpus.github.io/batch5-activities/Activities/Chessboard_Activity/)
 ### 5. 12/9/20 [Chessboard Grid Activity](http://riancorpus.github.io/batch5-activities/Activities/Grid_Chessboard/)
 ### 6. 12/12/20 [Survey Form Activity](http://riancorpus.github.io/batch5-activities/Activities/Survey_Form/)
+### 7. 12/12/20 [Landing Page Activity](https://riancorpus.github.io/batch5-activities/Activities/Landing_Page/)
 
 
 
