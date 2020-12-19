@@ -1,6 +1,6 @@
-# **Avion School**
+# Avion School
 
-# Activites and Assignments
+## Activites and Assignments
 1. [Best Practices](http://riancorpus.github.io/batch5-activities/Activities/Best_Practices/)
 2. [Letter](http://riancorpus.github.io/batch5-activities/Activities/Letter_Activity/)
 3. [Tribute Page](http://riancorpus.github.io/batch5-activities/Activities/Tribute_Page/) 
