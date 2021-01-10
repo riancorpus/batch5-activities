@@ -10,7 +10,7 @@
 7. [Landing Page Activity](https://riancorpus.github.io/batch5-activities/Activities/Landing_Page/)
 8. [Calculator Activity](https://riancorpus.github.io/batch5-activities/Activities/Calculator/)
 9. [BMI Computation](https://jsfiddle.net/6wjbztd0/)
-
+9. [Deck Of Cards Game](https://jsfiddle.net/p49tyu0c/)
 
 
 
